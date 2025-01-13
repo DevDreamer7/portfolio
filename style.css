@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body {
+    background-image: url('walpaper.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    width: 100vh;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navi {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    background-color: rgba(34, 36, 58, 0.9);
+    padding: 15px 30px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.navi ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-right: 30px;
+}
+
+.navi a {
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+    border-radius: 5px;
+    font-weight: 700; 
+}
+
+.navi a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+.navi a:active {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+main {
+    padding-top: 80px;
+    color: white;
+    text-align: center;
+}
+
+main p{
+    font-weight:500;
+    font-family: 'poppins','Times New Roman', Times, serif;
+    padding-bottom: 5px;
+}
+
+
+.button-container {
+    position: fixed;
+    right: 20px;
+    top: 70%;
+    transform: translateY(-50%); 
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+
+.button-container button {
+    padding: 10px 20px;
+    border: 2px solid #6495ed; 
+    border-radius: 5px;
+    background-color: transparent;
+    color: #6495ed; 
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 150px; 
+    margin-right: 30vw;
+}
+
+
+.button-container button:hover {
+    background-color: #6495ed; 
+    color: #ffffff; 
+}
+
+
+.button-container button:nth-child(2) {
+    border-color: #ffffff; 
+    color: #ffffff; 
+}
+
+
+.button-container button:nth-child(2):hover {
+    background-color: #ffffff; 
+    color: #6495ed; 
+}
+.about-me {
+    font-size: 2em; 
+    font-weight: 600; 
+    text-align: left; 
+    margin-left: 11%; 
+    margin-top: 10px; 
+    color: wheat;
+}
+.about-me:hover{
+    color: teal;
+    
+}
+
+.description {
+    color: #e6e8eb;
+    font-weight: 500;
+    font-family: 'Poppins', 'Times New Roman', Times, serif;
+    padding: 10px 20px; 
+    text-align: left; 
+    margin-left: 10%; 
+    max-width: 500px;
+    font-size: 20px;
+}
+.description:hover{
+    color:rgb(197, 196, 196);
+}
+#title2{
+    color: white;
+    padding-bottom: 5vh;
+    font-weight: 900;
+    min-height: 150px; 
+    padding-bottom:40px;
+    font-family: 'karla';
+    text-align:center;
+    margin-left: 30vw;
+}
+
+
